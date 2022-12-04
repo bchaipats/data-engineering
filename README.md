@@ -1,7 +1,6 @@
-# data-engineering
+# Data Engineering
 
-
-# Spark Installation
+## Spark Installation
 - Download a pre-packaged of Hadoop from https://spark.apache.org/downloads.html.
 - Run `tar -zvxf <file_name>` on the downloaded package.
 - Install JRE and JVM.
