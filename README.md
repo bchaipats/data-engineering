@@ -15,7 +15,7 @@
   - Run `sudo update-alternatives --config javac`
 - Set the `JAVA_HOME` environment variable.
   - Run `sudo update-alternatives --config java` to determine where Java is installed.
-  - Run `sudo vim /etc/environment`
+  - Run `sudo vim /etc/environment` or `sudo vim ~/.bashrc`
   - Add `JAVA_HOME="<path_to_java>"`
-  - Run `source /etc/environment`
+  - Run `source /etc/environment` or `source ~/.bashrc`
   - Run `echo $JAVA_HOME` to verify that the environment variable was set.
